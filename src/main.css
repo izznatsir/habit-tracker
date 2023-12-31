@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+	--color-neutral-bg: theme(colors.stone.50);
+}
+
+.dark {
+	--color-focus: theme(colors.lime.400);
+	--color-neutral-bg: theme(colors.stone.950);
+	--color-neutral-bg-subtle: theme(colors.stone.900);
+	--color-neutral-border: theme(colors.stone.500);
+	--color-neutral-border-subtle: theme(colors.stone.700);
+	--color-neutral-interactive-bg: theme(colors.stone.800);
+	--color-neutral-interactive-bg-hover: theme(colors.stone.700);
+	--color-neutral-interactive-bg-muted: theme(colors.stone.600);
+	--color-neutral-interactive-border: theme(colors.stone.500);
+	--color-neutral-interactive-border-hover: theme(colors.stone.400);
+	--color-neutral-text: theme(colors.stone.200);
+	--color-neutral-text-contrast: theme(colors.stone.50);
+	--color-neutral-text-muted: theme(colors.stone.400);
+
+	color-scheme: dark;
+}
